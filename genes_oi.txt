@@ -1,0 +1,12 @@
+FCGR1A,hg38
+FCGR2A,hg38
+FCGR2B,hg38
+FCGR2C,hg38
+FCGR3A,hg38
+FCGR3B,hg38
+FCGRT,hg38
+Fcgr1,mm10
+Fcgr2b,mm10
+Fcgr3,mm10
+Fcgr4,mm10
+Fcgrt,mm10
