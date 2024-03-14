@@ -1,6 +1,6 @@
 ## Overview
 
-'regpot_single_gene_hg38_mm10.py' calculates the regulatory potential (RP) score (https://www.nature.com/articles/s41467-020-16106-x) of a transcription factor for a given gene in either the human (hg38) or mouse (mm10) genome. The RP score is a measure of the likelihood that a transcription factor (TF) regulates a gene, based on the proximity and the number of TF binding sites as evidenced by TF ChIP-Seq binding peaks to the gene's transcription start site (TSS).
+'regpot_single_gene_hg38_mm10.py' calculates the regulatory potential (RP) score (https://www.nature.com/articles/s41467-020-16106-x) of a transcription factor for a given gene in either the human (hg38) or mouse (mm10) genome. The RP score is a measure of the likelihood that a transcription factor (TF) regulates a gene, based on the distances and the number of TF binding sites, as evidenced by TF ChIP-Seq binding peaks, to the gene's transcription start site (TSS).
 
 
 Here's a step-by-step breakdown of what the script does:
