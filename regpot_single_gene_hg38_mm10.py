@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 import argparse
+import itertools
 import sqlite3
-import os
 
 from pybedtools import BedTool
 import pandas as pd
@@ -240,9 +240,6 @@ def main(gene_symbol, species, half_decay):
     TFs = list_TFs('overlapping_regions', species, conn)
     print(f"Transcription factors: {TFs}")
 
-    if os.path.exists("rp_score_all_TF.csv"):
-        os.remove("rp_score_all_TF.csv")
-        
     rp_score_all_TF_df = create_rp_score_dataframe(TFs, gene_symbol, species, conn)
     #print(rp_score_all_TF_df)
 
